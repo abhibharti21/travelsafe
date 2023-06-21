@@ -1,0 +1,321 @@
+@media screen and (max-width: 1100px) {
+  .Header {
+    nav {
+      position: absolute;
+      top: -66rem;
+      left: -20rem;
+      width: 100%;
+      height: 100vh;
+      background-color: #f2be22;
+      flex-direction: column;
+      border-bottom-right-radius: 25%;
+      transition: all 0.5s;
+      a {
+        color: rgb(0, 0, 0);
+      }
+    }
+    button {
+      display: block;
+    }
+    .activeMenu {
+      top: 0;
+      left: 0;
+    }
+  }
+  .home {
+    .Bg {
+      h1 {
+        width: 75%;
+        font-size: 1.5rem;
+        padding: 2rem 1rem;
+      }
+    }
+    .info {
+      padding: 2rem 1rem;
+
+      > section {
+        > p {
+          font-size: 1.2rem;
+        }
+        &::after {
+          width: 150px;
+          height: 3.6rem;
+        }
+      }
+    }
+  }
+  .visitable {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+///small tablets
+
+@media screen and (max-width: 950px) {
+  .map {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 2rem 0 0;
+    h1 {
+      padding-bottom: 2rem;
+    }
+    iframe {
+      width: 100%;
+      height: 50vh;
+    }
+  }
+  .footer {
+    padding: 3rem 1rem;
+    > div {
+      &:first-of-type {
+        h1 {
+          letter-spacing: 2px;
+        }
+        p {
+          text-transform: uppercase;
+          &:first-of-type {
+            font-weight: 500;
+            font-size: 1rem;
+          }
+          &:last-of-type {
+            font-size: 0.9rem;
+          }
+        }
+      }
+      &:last-of-type {
+        > div {
+          a {
+            padding: 12px 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .about {
+    section {
+      flex-direction: column;
+      height: fit-content;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+      aside {
+        padding: 5rem 1rem;
+      }
+      &:nth-child(2) {
+        flex-direction: column-reverse;
+        img {
+          object-fit: contain;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .empty {
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+  .Booking {
+    flex-direction: column-reverse;
+    height: fit-content;
+    padding: 5rem 0;
+    section {
+      width: 100%;
+
+      main {
+        padding: 3rem 2rem;
+      }
+    }
+  }
+}
+
+//mobile screen
+
+@media screen and (max-width: 750px) {
+  .Header {
+    padding: 1rem 0.7rem;
+  }
+  .home {
+    .Bg {
+      h1 {
+        width: 84%;
+        letter-spacing: 2px;
+        padding: 3rem 1rem;
+      }
+    }
+  }
+
+  .info {
+    flex-direction: column;
+    section {
+      &:nth-child(2) {
+        &::after {
+          left: 36%;
+        }
+      }
+    }
+  }
+  .Booking {
+    flex-direction: column-reverse;
+    height: fit-content;
+    padding: 5rem 0;
+    section {
+      width: 100%;
+
+      main {
+        padding: 3rem 2rem;
+      }
+    }
+
+    aside {
+      img {
+        width: 410px;
+      }
+    }
+  }
+
+  .footer {
+    border: 3px dotted;
+    padding: 3rem 0;
+    flex-direction: column;
+    gap: 3rem;
+    > div {
+      width: 100%;
+      &:first-of-type {
+        padding: 2rem 0;
+        border-bottom: 3px dotted;
+      }
+    }
+  }
+  .empty {
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home {
+    .Bg {
+      h1 {
+        width: 96%;
+        font-size: 1.1rem;
+        padding: 2rem 0.3rem;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .Gallery {
+    padding: 3rem 0.3rem;
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    section {
+      gap: 0.6rem;
+      img {
+        width: 250px;
+        height: 300px;
+      }
+    }
+  }
+  .empty {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .home {
+    .visitable {
+      padding: 2rem 0.7rem;
+      > h1 {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 250px;
+        height: 300px;
+      }
+      .visitableContainer {
+        .visitableBox {
+          padding: 1rem 0.5rem;
+          width: 300px;
+          > h2 {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .about {
+    section {
+      img {
+        height: 45vh;
+      }
+      aside {
+        padding: 4rem 0.5rem;
+      }
+    }
+  }
+  .Booking {
+    padding: 5rem 0;
+    section {
+      width: 100%;
+
+      main {
+        padding: 3rem 0.5rem;
+        form {
+          input {
+            width: 87%;
+          }
+          textarea {
+            width: 87%;
+          }
+        }
+      }
+    }
+
+    aside {
+      img {
+        width: 250px;
+      }
+    }
+  }
+  .Gallery {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    section {
+      gap: 0.9rem;
+      img {
+        width: 300px;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 9px;
+      }
+    }
+  }
+  .empty {
+    h1 {
+      font-weight: 700px;
+      font-size: 1.2rem;
+    }
+  }
+}

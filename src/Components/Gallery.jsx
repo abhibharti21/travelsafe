@@ -1,0 +1,147 @@
+import React, { useState } from "react";
+
+const Gallery = () => {
+  const [fullscreen, setFullScreen] = useState("");
+
+  const setFullScreenImg = () => {
+    setFullScreen("fullScreenImg");
+  };
+
+  return (
+    <div className="Gallery">
+      <h1>Places We Offer You To Visit...</h1>
+      <section>
+        <img
+          src="https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Khajjiar1.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i.insider.com/5b4e1386afb7751b008b45d1?width=1000&format=jpeg&auto=webp"
+          alt="placeImage"
+        />
+        <img
+          src="https://deadsea.com/wp-content/uploads/2019/02/MOST-BUTIFUL-NATURAL-PLACES--1024x771.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.mistay.in/travel-blog/content/images/2020/07/Nohkalikai_Falls_Cherrapunji.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://static.toiimg.com/photo/msid-91308414,width-96,height-65.cms"
+          alt="placeImage"
+        />
+        <img
+          src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/09/02144623/places-to-visit-near-Pune-1600x900.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://worldofwanderlust.com/wp-content/uploads/2014/09/IMG_0171.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.travelandleisure.com/thmb/rbPz5_6COrWFh94qFRHYLJrRM-g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iguazu-falls-argentina-brazil-MOSTBEAUTIFUL0921-e967cc4764ca4eb2b9941bd1b48d64b5.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://static.boredpanda.com/blog/wp-content/uuuploads/unbelievable-places/unbelievable-places-8.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.india-tours.com/blog/wp-content/uploads/2021/09/best-place-in-india-1024x640.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2019/07/india-kerala-tour.jpg?fit=1920%2C1280&ssl=1"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.treehugger.com/thmb/xLiJkxhjYLWR3AxrptHX_N-SNus=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/YosemiteLead-967f12ff0d3747cda11d70b668d66844.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://e0.pxfuel.com/wallpapers/220/169/desktop-wallpaper-moonlight-beach-in-2019-nature-beach-moon.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://static-blog.treebo.com/blog/wp-content/uploads/2018/06/Khajjar.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://static.toiimg.com/thumb/msid-92443076,width-1070,height-580,resizemode-75/92443076,pt-32,y_pad-40/92443076.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i0.wp.com/www.wonderslist.com/wp-content/uploads/2022/05/Best-Natural-Places-to-Visit-in-Pakistan.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i.pinimg.com/originals/d3/02/fc/d302fcacef95a385136fc78e9fe7bc39.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/01/08ET/top-10-wonders-west-yellowstone-national-park.jpg.rend.hgtvcom.616.462.suffix/1491581132559.jpeg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.attractionsofamerica.com/images/all_thingstodo/20170729170934_yellowstone.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/07/Nubra-Valley-in-Ladakh.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i.insider.com/5b5b8ad97708e9149c3e0555?width=700"
+          alt="placeImage"
+        />
+        <img
+          src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221135030/iStock-498749433-1024x683.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.hyderabadtourism.travel/images/popular/places-near-hyderabad/best-tourist-places-to-visit-near-hyderabad-header.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i.ytimg.com/vi/KpRHRh9PaRU/maxresdefault.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://media.easemytrip.com/media/Blog/India/637870903728666071/637870903728666071GEELcc.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Kodaikanal-1.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.travelandleisure.com/thmb/qmHq7O29-0s5MvBc8loMMHhNHmw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/banff-national-park-alberta-MOSTBEAUTIFUL0921-26a3ea1b54ca49a5a0ea5b759f8f96cd.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://www.pandotrip.com/wp-content/uploads/2016/03/Multnomah-Photo-by-Thomas-Duffy.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://assets-news.housing.com/news/wp-content/uploads/2022/09/12220317/Best-places-to-visit-in-July-in-India.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://i.insider.com/5f6a655e49479600287bda4a?width=1000&format=jpeg&auto=webp"
+          alt="placeImage"
+        />
+        <img
+          src="https://theculturetrip.com/wp-content/uploads/2018/05/shutterstock_361999316-1.jpg"
+          alt="placeImage"
+        />
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/4c/3f/63/pichavaram-mangrove-forest.jpg?w=500&h=400&s=1"
+          alt="placeImage"
+        />
+      </section>
+    </div>
+  );
+};
+
+export default Gallery;

@@ -1,0 +1,60 @@
+{
+  "places": [
+    {
+      "place": "Gaya",
+      "State": "Bihar",
+      "image": "https://media.istockphoto.com/id/842997816/photo/mahabodhi-temple-bodhgaya.jpg?s=612x612&w=0&k=20&c=0_tRix2uyZG0V9DKmCGeEE0h2_Mn4pIAZyyVzP5UDGI=",
+      "tripTime": "05 Days",
+      "pricing": "200$"
+    },
+    {
+      "place": "New Delhi",
+      "State": "Delhi",
+      "image": "https://www.delhitourism.gov.in/dttdc/img/new/Swaminarayan.jpg",
+      "tripTime": "10 Days",
+      "pricing": "290$"
+    },
+    {
+      "place": "Agra",
+      "State": "Uttar Pradesh",
+      "image": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+      "tripTime": "01 Days",
+      "pricing": "20$"
+    },
+    {
+      "place": "Mumbai",
+      "State": "Maharashtra",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/5f/f1/caption.jpg?w=1200&h=-1&s=1",
+      "tripTime": "11 Days",
+      "pricing": "320$"
+    },
+    {
+      "place": "Baga Beach",
+      "State": "Goa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/BeachFun.jpg",
+      "tripTime": "07 Days",
+      "pricing": "470$"
+    },
+    {
+      "place": "Jaipur",
+      "State": "Rajasthan",
+      "image": "https://static.toiimg.com/photo/msid-97277718,width-96,height-65.cms",
+      "tripTime": "10 Days",
+      "pricing": "220$"
+    },
+    {
+      "place": "Shimla",
+      "State": "Himachal Pradesh",
+      "image": "https://img.veenaworld.com/wp-content/uploads/2020/12/Best-Tourist-Places-to-Visit-in-Shimla-scaled.jpg?imwidth=1080",
+      "tripTime": "06 Days",
+      "pricing": "620$"
+    },
+    {
+      "place": "Chennai",
+      "State": "Tamilnadu",
+      "image": "https://blog.thomascook.in/wp-content/uploads/2018/07/img-7-e1531194581524.jpg",
+      "tripTime": "12 Days",
+      "pricing": "270$"
+    }
+  ]
+}
